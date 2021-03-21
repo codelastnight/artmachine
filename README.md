@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0643e551-0fef-4f57-9d3c-29d576f3e06c/deploy-status)](https://app.netlify.com/sites/gatsby-personal-starter-blog/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/226d18ba-8e54-4a6a-bb64-4095342e705b/deploy-status)](https://app.netlify.com/sites/gifted-sinoussi-d4ae69/deploys)
 
 <img alt="screenshot" src="./screenshot.gif">
 
