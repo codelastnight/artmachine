@@ -18,7 +18,7 @@ module.exports = {
 
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
+    `gatsby-plugin-scss-typescript`,
     {
       resolve: "gatsby-plugin-local-search",
       options: {

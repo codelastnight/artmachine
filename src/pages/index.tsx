@@ -14,7 +14,7 @@ function IndexPage( props: PageProps) {
         title="Home"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
-      <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
+     
       <h1>
         Hey people{" "}
         <span role="img" aria-label="wave emoji">
@@ -28,7 +28,7 @@ function IndexPage( props: PageProps) {
       </p>
       <p>Now go build something great!</p>
       <Link to="/blog/">
-        <button>Go to Blog</button>
+        <button >Go to Blog</button>
       </Link>
     </Layout>
    

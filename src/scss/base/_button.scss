@@ -3,13 +3,25 @@ button {
     border-radius: var(--radius);
     border: 2px solid var(--black);
     outline: none;
-    
+    filter: var(--shadow);
+    padding: 12px 22px;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: transform 0.3s ease-out;
     &:hover {
         background: var(--lime);
+        transform: translateY(-4px);
+
     }
 
     &:active {
         background: var(--peach);
     }
 
+    &.small {
+        padding: 6px 22px;
+    }
+
+
 }
+
