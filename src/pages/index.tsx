@@ -2,7 +2,7 @@ import React from "react"
 import { Link, PageProps } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { IsLoading } from "../utils/isLoading"
+import { IsLoading } from "../utils/IsLoading"
 
 function IndexPage( props: PageProps) {
 
