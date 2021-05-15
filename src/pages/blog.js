@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 class Blog extends React.Component {
   render() {
-    //const { data, navigate, location } = this.props
-    // const siteTitle = data.site.siteMetadata.title
-    // const posts = data.allMdx.edges
-    // const localSearchBlog = data.localSearchBlog
+    const { data, navigate, location } = this.props
+    const siteTitle = data.site.siteMetadata.title
+    const posts = data.allMdx.edges
+    const localSearchBlog = data.localSearchBlog
 
     return (
       <div>

@@ -7,8 +7,8 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-plugin-image"
-import styled from "styled-components"
+import Image from "gatsby-image"
+//import styled from "styled-components"
 
 
 function Bio() {
@@ -18,7 +18,7 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <Container>
+          <div>
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
@@ -40,7 +40,7 @@ function Bio() {
                 Follow me on Twitter
               </a>
             </p>
-          </Container>
+          </div>
         )
       }}
     />
@@ -67,8 +67,8 @@ const bioQuery = graphql`
   }
 `
 
-const Container = styled.div`
-  display: flex;
-`
+// const Container = styled.div`
+//   display: flex;
+// `
 
 export default Bio
