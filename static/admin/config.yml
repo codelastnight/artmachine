@@ -1,5 +1,5 @@
 backend:
-  name: github`
+  name: github
   repo: codelastnight/artmachine
   branch: main
 
@@ -17,3 +17,20 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+  
+  - name: artists
+    label: Artists
+    folder: content/artists
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: artistName, label: Artist Name }
+      - { name: about, label: About, widget: text }
+      - { name: shop, label: Shop }
+
+      - label: "Social Links"
+        name: "links"
+        widget: "list"
+        summary: '{{fields.link}}'
+        field: {label: Link, name: link, widget: string}
+

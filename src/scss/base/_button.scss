@@ -1,0 +1,15 @@
+button {
+    background: var(--tan);
+    border-radius: var(--radius);
+    border: 2px solid var(--black);
+    outline: none;
+    
+    &:hover {
+        background: var(--lime);
+    }
+
+    &:active {
+        background: var(--peach);
+    }
+
+}

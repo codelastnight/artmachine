@@ -1,9 +1,7 @@
 import React from "react"
 import { Link, PageProps } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from "../components/button"
 import { IsLoading } from "../utils/isLoading"
 
 function IndexPage( props: PageProps) {
@@ -11,8 +9,8 @@ function IndexPage( props: PageProps) {
   const siteTitle = "Gatsby Starter Personal Website"
 
   return (
-    <Layout location={props.location} title={siteTitle}>
-      <SEO
+    <Layout>
+    <SEO
         title="Home"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
@@ -30,9 +28,10 @@ function IndexPage( props: PageProps) {
       </p>
       <p>Now go build something great!</p>
       <Link to="/blog/">
-        <Button marginTop="35px">Go to Blog</Button>
+        <button>Go to Blog</button>
       </Link>
     </Layout>
+   
   )
 }
 
