@@ -1,11 +1,12 @@
 import React,{ FunctionComponent} from "react";
+import '../scss/components/modal.module.scss'
 
 type Modal = {
     className: string
     isOpen: boolean
 }
 
-export const Modal: FunctionComponent<Modal> = (props) => {
+const Modal: FunctionComponent<Modal> = (props) => {
   
     return (
         <div className={'modal ' + props.className + (props.isOpen ? " active " : "")}>
@@ -19,3 +20,5 @@ export const Modal: FunctionComponent<Modal> = (props) => {
 
     )
 }
+
+export default Modal

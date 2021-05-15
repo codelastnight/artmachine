@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Anime from 'animejs';
 
+import '../scss/components/isLoading.module.scss'
+
 
 export const IsLoading = (WrappedComponent, loadingMessage) => {
     function HOC(props) {
@@ -11,7 +13,7 @@ export const IsLoading = (WrappedComponent, loadingMessage) => {
         return (
             <>
                 {isLoading && 
-                <div>
+                <div className="isloading__wrapper">
                     {loadingMessage}
                 </div>
                 }

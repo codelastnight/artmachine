@@ -9,3 +9,13 @@ html, body {
 * {
     box-sizing: border-box;
 }
+.isloading__wrapper {
+    position: absolute;
+}
+
+img {
+    &.shopkeeper {
+        max-width: 800px;
+        width: 100%;
+    }
+}

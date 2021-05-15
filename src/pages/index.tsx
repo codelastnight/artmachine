@@ -15,12 +15,10 @@ function IndexPage( props: PageProps) {
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
      
-      <h1>
-        Hey people{" "}
-        <span role="img" aria-label="wave emoji">
-          👋
-        </span>
-      </h1>
+      <div className="grid-col-2">
+          <img className="shopkeeper" src="../shopkeeperdraft.jpg"></img>
+        </div>
+      <div>
       <p>Welcome to your new Gatsby website. You are on your home page.</p>
       <p>
         This starter comes out of the box with styled components and Gatsby's
@@ -30,6 +28,9 @@ function IndexPage( props: PageProps) {
       <Link to="/blog/">
         <button >Go to Blog</button>
       </Link>
+      </div>
+
+    
     </Layout>
    
   )
